@@ -1,0 +1,7 @@
+{
+  "name": "webpack-bug-commonjs-self-reference-dependency-in-worker",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "rm -rf packages/app/build && \"$npm_execpath\" --filter app exec webpack"
+  }
+}
